@@ -2,6 +2,26 @@
 <html>
     <head></head>
     <body>
-        <p>Index page</p>
+        {% extends "base.html" %}
+
+        {% block content %}
+        {% endblock %}
+        
+        <div class="chat-container">
+            <div class="main">
+                <div class="logo">
+                    Chatme
+                </div>
+
+                <div class="sub-main">
+                    <div class="main-user">
+                        <img src="" alt="profile picture" />
+                    </div>
+                    <p>username</p>
+                </div>
+            </div>
+
+            <div class="header">Messages</div>
+        </div>
     </body>
 </html>
